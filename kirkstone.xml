@@ -5,24 +5,24 @@
     <remote name="github" fetch="https://github.com"/>
     <remote name="oe" fetch="https://github.com/openembedded"/>
     <remote name="stm32mp" fetch="https://github.com/STMicroelectronics/meta-st-stm32mp"/>
-    <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman/stm32mp_bsp"/>
+    <!-- <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman/stm32mp_bsp"/> -->
 
      <!-- stm32mp_build main Yocto project -->
-    <project name="stm32mp_build" revision="main" remote="stm32mp_build" path="."/>
+    <!-- <project name="stm32mp_build" revision="main" remote="stm32mp_build" path="."/> -->
 
 
-    <!-- Upstream Yocto & OpenEmbedded Projects -->
-    <project  path="poky" revision="kirkstone" remote="yocto" />
-    <project remote="oe" revision="kirkstone"  />
-    <project remote="yocto" revision="kirkstone"  path="meta-virtualization" />
-    <project remote="yocto" revision="kirkstone"  path="meta-dpdk" />
-    <project remote="yocto" revision="kirkstone"  path="meta-intel" />
-    <project remote="yocto" revision="kirkstone"  path="meta-security" />
-    <project remote="yocto" revision="kirkstone"  path="meta-selinux" />
-    <project remote="yocto" revision="kirkstone"  path="meta-cgl" />
-    <project remote="yocto" revision="kirkstone"  path="meta-cloud-services" />
+   <!-- Upstream Yocto & OpenEmbedded Projects -->
+  <project name="poky" revision="kirkstone" remote="yocto" path="sources/poky"/>
+  <project remote="oe" revision="kirkstone" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="kirkstone" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto" revision="kirkstone" name="meta-dpdk" path="sources/meta-dpdk"/>
+  <project remote="yocto" revision="kirkstone" name="meta-intel" path="sources/meta-intel"/>
+  <project remote="yocto" revision="kirkstone" name="meta-security" path="sources/meta-security"/>
+  <project remote="yocto" revision="kirkstone" name="meta-selinux" path="sources/meta-selinux"/>
+  <project remote="yocto" revision="kirkstone" name="meta-cgl" path="sources/meta-cgl"/>
+  <project remote="yocto" revision="kirkstone" name="meta-cloud-services" path="sources/meta-cloud-services"/>
 
     <!-- Upstream stm32mp Projects -->
-    <project remote="stm32mp" revision="kirkstone"  path="meta-st-stm32mp" path="meta-st-stm32mp"/>
+    <project remote="stm32mp" revision="kirkstone"  name="meta-st-stm32mp" path="meta-st-stm32mp"/>
 
 </manifest>
