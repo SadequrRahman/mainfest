@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <default sync-j=4/>
     <!-- Remote repositories definition -->
-    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-    <remote name="github" fetch="https://github.com"/>
-    <remote name="oe" fetch="https://github.com/openembedded"/>
-    <remote name="stm32mp" fetch="https://github.com/STMicroelectronics/meta-st-stm32mp"/>
-    <!-- <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman/stm32mp_bsp"/> -->
+    <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman"/>
 
      <!-- stm32mp_build main Yocto project -->
     <!-- <project name="stm32mp_build" revision="main" remote="stm32mp_build" path="."/> -->
 
 
    <!-- Upstream Yocto & OpenEmbedded Projects -->
-  <project name="" revision="kirkstone" remote="" path="poky"/>
-  <project remote="oe" revision="kirkstone" name="" path="meta-openembedded"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-virtualization"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-dpdk"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-intel"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-security"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-selinux"/>
-  <project remote="yocto" revision="kirkstone" name="-" path="meta-cgl"/>
-  <project remote="yocto" revision="kirkstone" name="" path="meta-cloud-services"/>
+
 
     <!-- Upstream stm32mp Projects -->
-    <project remote="stm32mp" revision="kirkstone"  name="meta-st-stm32mp" path="meta-st-stm32mp"/>
+    <project remote="stm32mp_build" revision="main"  name="stm32mp_build" path="meta-st-stm32mp"/>
 
 </manifest>
