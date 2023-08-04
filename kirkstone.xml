@@ -5,7 +5,6 @@
     <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <remote name="github" fetch="https://github.com"/>
     <remote name="oe" fetch="https://github.com/openembedded"/>
-    <default sync-j=4 />
 
     <!-- Upstream Yocto & OpenEmbedded Projects -->
     <project name="poky" revision="kirkstone" remote="yocto" path="sources/poky"/>
