@@ -12,17 +12,17 @@
 
 
    <!-- Upstream Yocto & OpenEmbedded Projects -->
-  <project name="poky" revision="kirkstone"  path="sources/poky"/>
-  <project remote="oe" revision="kirkstone"  path="sources/meta-openembedded"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-virtualization"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-dpdk"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-intel"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-security"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-selinux"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-cgl"/>
-  <project remote="yocto" revision="kirkstone" path="sources/meta-cloud-services"/>
+  <project name="" revision="kirkstone" remote="" path="poky"/>
+  <project remote="oe" revision="kirkstone" name="" path="meta-openembedded"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-virtualization"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-dpdk"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-intel"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-security"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-selinux"/>
+  <project remote="yocto" revision="kirkstone" name="-" path="meta-cgl"/>
+  <project remote="yocto" revision="kirkstone" name="" path="meta-cloud-services"/>
 
     <!-- Upstream stm32mp Projects -->
-    <project remote="stm32mp" revision="kirkstone"  path="meta-st-stm32mp"/>
+    <project remote="stm32mp" revision="kirkstone"  name="meta-st-stm32mp" path="meta-st-stm32mp"/>
 
 </manifest>
