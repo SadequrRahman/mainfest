@@ -5,7 +5,7 @@
     <remote name="github" fetch="https://github.com"/>
     <remote name="oe" fetch="https://github.com/openembedded"/>
     <remote name="stm32mp" fetch="https://github.com/STMicroelectronics/meta-st-stm32mp"/>
-    <remote name="stm32mp_build" fetch="https://github.com/seapath"/>
+    <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman/stm32mp_bsp"/>
 
      <!-- stm32mp_build main Yocto project -->
     <project name="stm32mp_build" revision="kirkstone" remote="stm32mp_build" path="."/>
@@ -21,5 +21,8 @@
     <project remote="yocto" revision="kirkstone" name="meta-selinux" path="sources/meta-selinux"/>
     <project remote="yocto" revision="kirkstone" name="meta-cgl" path="sources/meta-cgl"/>
     <project remote="yocto" revision="kirkstone" name="meta-cloud-services" path="sources/meta-cloud-services"/>
+
+    <!-- Upstream stm32mp Projects -->
+    <project remote="stm32mp" revision="kirkstone" name="meta-st-stm32mp" path="meta-st-stm32mp"/>
 
 </manifest>
