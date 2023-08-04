@@ -8,12 +8,12 @@
     <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman/stm32mp_bsp"/>
 
      <!-- stm32mp_build main Yocto project -->
-    <project name="stm32mp_build" revision="kirkstone" remote="stm32mp_build" path="."/>
+    <project name="stm32mp_build" revision="main" remote="stm32mp_build" path="."/>
 
 
     <!-- Upstream Yocto & OpenEmbedded Projects -->
     <project name="poky" revision="kirkstone" remote="yocto" />
-    <project remote="oe" revision="kirkstone" name="meta-openembedded" />
+    <project remote="oe" revision="kirkstone" name="src/meta-openembedded" />
     <project remote="yocto" revision="kirkstone" name="meta-virtualization" />
     <project remote="yocto" revision="kirkstone" name="meta-dpdk" />
     <project remote="yocto" revision="kirkstone" name="meta-intel" />
