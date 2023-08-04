@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <default sync-j=4/>
+    
     <!-- Remote repositories definition -->
-    <remote name="stm32mp_build" fetch="https://github.com/SadequrRahman"/>
+    <remote name="git" fetch="https://github.com"/>
+
+
+    <default remote="git" sync-j=4 revision="kirkstone" />
 
      <!-- stm32mp_build main Yocto project -->
     <!-- <project name="stm32mp_build" revision="main" remote="stm32mp_build" path="."/> -->
@@ -12,6 +15,6 @@
 
 
     <!-- Upstream stm32mp Projects -->
-    <project remote="stm32mp_build" revision="main"  name="stm32mp_build" path="meta-st-stm32mp"/>
+    <project remote="git" revision="kirkstone" name="meta-openembedded" path="meta-openembedded"/>
 
 </manifest>
