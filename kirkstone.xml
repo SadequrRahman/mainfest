@@ -8,7 +8,7 @@
     <remote name="stm32mp" fetch="https://github.com/STMicroelectronics/meta-st-stm32mp"/>
 
     <!-- Upstream Yocto & OpenEmbedded Projects -->
-    <project remote="poky" revision="kirkstone" name="yocto" path="./poky"/>
+    <project remote="yocto" revision="kirkstone" name="poky" path="./poky"/>
     <project remote="oe" revision="kirkstone" name="meta-openembedded" path="./meta-openembedded"/>
     <!-- <project remote="yocto" revision="kirkstone" name="meta-virtualization" path="./meta-virtualization"/>
     <project remote="yocto" revision="kirkstone" name="meta-dpdk" path="./meta-dpdk"/>
