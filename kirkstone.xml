@@ -12,18 +12,14 @@
 
 
     <!-- Upstream Yocto & OpenEmbedded Projects -->
-    <project name="poky" revision="kirkstone" remote="yocto" path="poky"/>
-    <project remote="oe" revision="kirkstone" name="meta-openembedded" path="meta-openembedded"/>
-    <project remote="yocto" revision="kirkstone" name="meta-virtualization" path="meta-virtualization"/>
-    <project remote="yocto" revision="kirkstone" name="meta-dpdk" path="meta-dpdk"/>
-    <project remote="yocto" revision="kirkstone" name="meta-intel" path="meta-intel"/>
-    <project remote="yocto" revision="kirkstone" name="meta-security" path="meta-security"/>
-    <project remote="yocto" revision="kirkstone" name="meta-selinux" path="meta-selinux"/>
-    <project remote="yocto" revision="kirkstone" name="meta-cgl" path="meta-cgl"/>
-    <project remote="yocto" revision="kirkstone" name="meta-cloud-services" path="meta-cloud-services"/>
-
-    <!-- Upstream stm32mp Projects -->
-    <project remote="stm32mp" revision="kirkstone" name="meta-st-stm32mp" path="meta-st-stm32mp"/>
-
+    <project name="poky" revision="kirkstone" remote="yocto" path="sources/poky"/>
+    <project remote="oe" revision="kirkstone" name="meta-openembedded" path="sources/meta-openembedded"/>
+    <project remote="yocto" revision="kirkstone" name="meta-virtualization" path="sources/meta-virtualization"/>
+    <project remote="yocto" revision="kirkstone" name="meta-dpdk" path="sources/meta-dpdk"/>
+    <project remote="yocto" revision="kirkstone" name="meta-intel" path="sources/meta-intel"/>
+    <project remote="yocto" revision="kirkstone" name="meta-security" path="sources/meta-security"/>
+    <project remote="yocto" revision="kirkstone" name="meta-selinux" path="sources/meta-selinux"/>
+    <project remote="yocto" revision="kirkstone" name="meta-cgl" path="sources/meta-cgl"/>
+    <project remote="yocto" revision="kirkstone" name="meta-cloud-services" path="sources/meta-cloud-services"/>
 
 </manifest>
