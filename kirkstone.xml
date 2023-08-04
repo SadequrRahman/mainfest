@@ -17,7 +17,7 @@
     <project remote="yocto"     revision="kirkstone" name="meta-selinux"        path="meta-selinux"/>
     <project remote="yocto"     revision="kirkstone" name="meta-cgl"            path="meta-cgl"/>
     <project remote="yocto"     revision="kirkstone" name="meta-cloud-services" path="meta-cloud-services"/>
-    <project remote="yocto"     revision="kirkstone" name="meta-qt6"            path="meta-qt6"/>
+    <project remote="oe"        revision="kirkstone" name="meta-qt6"            path="meta-qt6"/>
     <project remote="stm32mp"   revision="kirkstone" name="meta-st-stm32mp"     path="meta-st-stm32mp"/>
 
 </manifest>
