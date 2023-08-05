@@ -4,6 +4,7 @@
     <!-- Remote repositories definition -->
     <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <remote name="qt5" fetch="https://github.com/meta-qt5"/>
+    <remote name="build" fetch="https://github.com/SadequrRahman/mainfest"/>
     <remote name="oe" fetch="https://github.com/openembedded"/>
     <remote name="stm32mp" fetch="https://github.com/STMicroelectronics"/>
 
@@ -17,7 +18,8 @@
     <project remote="yocto"     revision="kirkstone" name="meta-selinux"        path="meta-selinux"/>
     <project remote="yocto"     revision="kirkstone" name="meta-cgl"            path="meta-cgl"/>
     <project remote="yocto"     revision="kirkstone" name="meta-cloud-services" path="meta-cloud-services"/>
-    <project remote="qt5"        revision="kirkstone" name="meta-qt5"            path="meta-qt5"/>
+    <project remote="qt5"       revision="kirkstone" name="meta-qt5"           path="meta-qt5"/>
     <project remote="stm32mp"   revision="kirkstone" name="meta-st-stm32mp"     path="meta-st-stm32mp"/>
+    <project remote="build"     revision="main"      name="mainfest"            path="build"/>
 
 </manifest>
