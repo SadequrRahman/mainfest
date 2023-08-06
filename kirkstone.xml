@@ -20,6 +20,8 @@
     <project remote="yocto"     revision="kirkstone" name="meta-cloud-services" path="meta-cloud-services"/>
     <project remote="qt5"       revision="kirkstone" name="meta-qt5"            path="meta-qt5"/>
     <project remote="stm32mp"   revision="kirkstone" name="meta-st-stm32mp"     path="meta-st-stm32mp"/>
+    <project remote="stm32mp"   revision="kirkstone" name="meta-st-openstlinux" path="meta-st-openstlinux"/>
+    <project remote="stm32mp"   revision="kirkstone" name="meta-st-stm32mp-addons" path="meta-st-stm32mp-addons"/>
     <project remote="build"     revision="main"      name="mainfest"            path="build"/>
 
 </manifest>
