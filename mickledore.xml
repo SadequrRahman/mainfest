@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com"/>
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="github" fetch="https://github.com/"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
-  <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
+  <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics/"/>
   <remote name="build" fetch="https://github.com/SadequrRahman/"/>
   <remote name="qt5" fetch="https://github.com/"/>
   
