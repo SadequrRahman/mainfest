@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com"/>
-  <remote name="oe" fetch="http://git.openembedded.org"/>
+  <remote name="yocto" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   <remote name="build" fetch="https://github.com/SadequrRahman/"/>
   <remote name="qt5" fetch="https://github.com/"/>
